@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+*{
+	box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+	margin: 0 auto;
+	padding: 0 32;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.col-1-2{
+	flex: 0 1 30%;
+}
+.padding{
+	padding-top: 40px;
+}
+/* header */
+.header{
+    text-align: center;
+    font-weight: 600;
+	color: white;
+	font-size: 29px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 25px;
+}
+.body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+	url(../media/p7.jpg) no-repeat center center;
+	background-size: cover;
+	padding-bottom: 20px;
+}
+/* hero */
+.box{
+	height: 210px;
+	background-color: #FF0248;
+	border-radius: 15px;
+}
+.bg{
+	background-image: linear-gradient( to left,#FF0248 25%, black);
+}
+.bg-1{
+	background-image: radial-gradient( #FF0248, black);
+}
+.bgg h2{
+	display: flex;
+    justify-content: center;
+	padding-top: 25%;
+	font-size: 19px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+}
+.box-4{
+	height: 390px;
+	width: 1000px;
+	background: linear-gradient(to left,rgba(226, 31, 31, 0.6), rgba(230, 218, 218, 0.6)),url(../media/p8.jpg) no-repeat center center;
+	background-size: cover;
+	border-radius: 15px;
+}
+.bgg-1{
+	margin-top: 50px;
+	margin-left: 140px;
+}
+.bgg-1 h2{
+	padding-top: 20%;
+}
+.icon a{
+	color: silver;
+	font-size: 50px;
+}
+.icon{
+	padding-left: 190px;
+	margin-top: 30px;
+}
+
