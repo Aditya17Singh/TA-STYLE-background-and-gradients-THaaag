@@ -51,9 +51,9 @@ table {
     font-size: 16px;
     line-height: 1.5;
     font-family: 'Roboto', sans-serif;
-    background-size: cover;
-    background: linear-gradient( to top ,#20222F ,#1D2029) no-repeat ;
+    background: #1D2029;
     padding-bottom: 50px;
+    color: white;
 }
 /* general */
 .container{
@@ -63,6 +63,7 @@ table {
 }
 .flex{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .col-1-2{
@@ -86,18 +87,17 @@ table {
     letter-spacing: 0.5px;
 }
 .small-1{
-    color: white;
     font-size: 30px;
 }
 .text{
     font-size: 60px;
-    color: white;
     font-weight: 600; 
 }
 .text-1{
     margin-top: 5px;
     letter-spacing: 5px;
     font-weight: 100;
+    text-transform: uppercase;
 }
 .icon{
     color: #1590F5;
@@ -126,14 +126,17 @@ table {
     color:#C5051F;
 }
 /* header */
+.header{
+    background-color: #20222F;
+    /* padding-bottom: 80px; */
+}
 .btn{
-    width: 55px;
-    height: 28px;
+    width: 50px;
+    height: 27px;
     border-radius: 20px;
     background: linear-gradient(to right,#53A1C4, #3FCA98) no-repeat;
-    display: inline-block;
-    vertical-align: middle;
-    border: 0;
+    margin-left: 16px;
+    padding-left: 8px;
 }
 .circle{
     width: 20px;
@@ -141,11 +144,8 @@ table {
     border-radius: 50%;
     background-color: #1D2029;
     display: inline-block;
-    margin-right: 25px;
-    margin-top: 3px;
 }
 .head-text h1{
-    color: white;
     font-size: 32px;
 }
 .margin-dark-mode{
@@ -180,7 +180,6 @@ table {
 }
 /* another section */
 .section-text{
-    color: white;
     font-size: 27px;
     padding: 20px 0;
     font-weight: 400;
